@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <!-- l'en-tête du document html -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- la div générale de la page avec in id: conteneur  -->
     <div id="conteneur">
+        <!-- l'en-tête dans body  -->
         <header>
+            <!-- une div pour le logo  -->
             <div class="logo">
-                <img src="img/logo (1).png" alt="logo de la page">
+                <img src="img/logo1.png" alt="logo de la page">
             </div>
-            <div class="header">
-                <h1> Ma Boutique</h1>
+            <!-- une première div pour l'en-tête  -->
+            <div class="header1">
+                <h1> Ma boutique</h1>
                 <h3>vente en ligne : Mode, Tendence et Déco </h3>
-
             </div>
-            <div class="header">
+            <!-- une dexième div pour l'en-tête  -->
+            <div class="header2">
                 <h2> Besoin d'aide ?</h2>
+                <img src="img/aide.png" alt="si beesoin d'aide " width="150" height="20">
+                <p>0800 10 28 10</p>
                 <p>Du lundi au vendredi de 10 h à 17h30</p>
             </div>
-            <div class="header">
-                <a href="#"> Mon compte</a>
-                <a href="#">article(s) dans votre panier .</a>
-
+            <!-- une troisième div pour l'en-tête  -->
+            <div class="header3">
+                <a href="#" class="monCompte"> Mon compte</a>
+                <a href="#" class="article">article(s) dans votre panier .</a>
             </div>
             
         </header>
@@ -39,57 +46,87 @@
             <a href="#">Bijoux</a>
             <a href="#">Idées cadeaux</a>
         </nav>
+          <!-- le contenu de la page  -->
         <main>
-
-        
-            <section class="section01"> 
-                <!-- insérer une image  -->
-                <img src="img/bandeau.png" alt="">
-            </section>
+            <!-- ma première section pour l'image de azzaro  -->
+            <div class="section01"> 
+                <img src="img/bandeau.png" alt="image du parfum azzaro pour homme">
+            </div>
+            <!-- ma deuxième section  -->
             <section class="section02">
                 <div class="paiement">
                     <h3>Paiement Sécurisé</h3>
                     <p>Régler vos achat en toute sérénité sur maboutique.com</p>
-                    <img src="img/paiement.png" alt="mode de payement">
+                    
                     <div>
-                        <!-- pour insérer l'image  -->
+                        <img src="img/paiement.png" alt="mode de payement">
                     </div>
                 </div>
                 <div class="presentation">
                     <h3>Qui sommes ? </h3>
-                    <p></p>
-                    
+                    <p>Bienvenue chez MaBoutique ! MaBoutique est la plus grande boutique en ligne de France consacrée à la mode et à la beauté pour femmes et hommes.
+                    Nous proposons plus de 850 marques ainsi que nos propres collections.
+                    N'hésitez plus ! les livraisons et les retour sont gratuits.
+                    Retrait possible de votre commande dans notre entrepôt sur RDV.</p>  
                 </div>
                 <div class="service">
-                    <h3>Servives</h3>
-                    
-                    <div>
-                        <!-- 1ére image  -->
-                        <img src="img/camion.png" alt="livraison">
+                    <h3>Servives</h3> 
+                    <div class="livraison">
+                        <img src="img/camion.png" alt="livraison" height="30">
+                        <p>Livraison sous 48h</p>
                     </div>
-                    <div>
-                         <!-- 2éme image  -->
-                         <img src="img/echange.png" alt="echange">
+                    <div class="echange">
+                         <img src="img/echange.png" alt="echange" height="30">
+                         <p>Produits Echangeables</p>
                     </div>
                 </div>
             </section>
+            <!-- rétablir le flux  -->
             <div class="clear"></div>
+
+            <!-- ma troisième section  -->
             <section class="section03">
                 <div class="bonPlan">
                     <h3>Bon plan</h3>
+                    <!-- <img src="img/robe.png" alt="modéle de robe"> -->
+                    <div class="bloc">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo animi quia sit, aut qui nulla praesentium in, mollitia doloremque iusto id quaerat fugit deserunt. 
+                        </p>
+                        <a href="#"><p>voir</p></a>
+                    </div>
                 </div>
                 <div class="coeur">
                     <h3>Coup de coeur</h3>
+                    <div class="bloc">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem excepturi beatae autem numquam, repellendus corporis explicabo, laboriosam amet molestias sint </p>
+                        <a href="#"><p>voir</p></a>
+                    </div>
                 </div>
                 <div class="objectif"> 
                     <h3>Objectif plaisir</h3>
+                    <div class="bloc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis earum, repellat quae sed voluptates minima quo id rerum, praesentium perferendis suscipit cum velit </p>
+                        <a href="#"><p>voir</p></a>
+                    </div>
 
                 </div>
             </section>
             <div class="clear"></div>
         </main>
+        <!-- le pied de la page -->
         <footer>
-
+            <!-- une liste non ordonnée avec des liens  -->
+             <ul>
+                   <li> <a href="#">Newsletter - </a></li>
+                    <li><a href="#">Promotions - </a></li>
+                    <li><a href="#">Nouveaux produits - </a></li>
+                    <li><a href="#">Meilleurs ventes - </a></li>
+                    <li><a href="#">Mentions légales - </a></li>
+                    <li><a href="#">Conditions générales de vente - </a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+             </ul>
+            
         </footer>
     </div>
 </body>
